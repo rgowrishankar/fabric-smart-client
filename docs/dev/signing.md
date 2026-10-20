@@ -37,7 +37,7 @@ Once created, list your keys:
 gpg --list-secret-keys --keyid-format LONG
 ```
 
-Copy the key ID (looks like `34AA6DBC`).
+Copy the key ID (The key ID will be in the line starting with sec. The 16 character string after the algorithm (e.g., ed25519/****************) is your Key ID).
 
 ### 2. Add your GPG key to GitHub
 
